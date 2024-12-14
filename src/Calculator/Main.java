@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Class<CalculatorImpl> calculatorClass = CalculatorImpl.class;
 
-        // Задание 2: Получаем все методы класса и его суперклассов
+        // Задание 1: Получаем все методы класса и его суперклассов
         Method[] methods = calculatorClass.getMethods();
 
         for (Method method : methods) {
